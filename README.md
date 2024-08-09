@@ -46,7 +46,9 @@ required dependencies:
 - Prior to running the notebook, configure the necessary API keys for external services.
 Replace the placeholders in the notebook with your actual API keys. The relevant lines to
 update are:
+
 **os.environ["SERPER_API_KEY"] = "<your_serper_api_key>"**
+
 **os.environ["OPENAI_API_KEY"] = "<your_openai_api_key>"**
   
 **3. PDF Blood Test Report Preparation:**
